@@ -39,12 +39,12 @@ namespace krizan
             WindowState = WindowState.Minimized;
         }
 
-        private void input(object sender, TextChangedEventArgs e)
+        private void input(object sender, RoutedEventArgs e)
         {
             userName.Content = "";
         }
 
-        private void passinput(object sender, TextChangedEventArgs e)
+        private void passinput(object sender, RoutedEventArgs e)
         {
             password.Content = "";
         }

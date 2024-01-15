@@ -135,11 +135,11 @@
                                        VerticalAlignment="Center"
                                        FontSize="24" Margin="8, 0, 0, 0"
                                        BorderThickness="0"/>
-                                <TextBox x:Name="passInput" Background="Transparent"                                         
+                                <PasswordBox x:Name="passInput" Background="Transparent"                                         
                                          VerticalAlignment="Center"
                                          FontSize="24" Margin="8, 0, 0, 0"
                                          BorderThickness="0"
-                                         TextChanged="passinput"/>
+                                         PasswordChanged="passinput"/>
                             </Grid>
                         </Border>
                     </Grid>
@@ -150,7 +150,7 @@
                         Height="400" Width="390">
                     <Border.Background>
                         <ImageBrush 
-  ImageSource="put image source here"/>
+  ImageSource="insert image source here"/>
                     </Border.Background>
                 </Border>
             </Grid>
